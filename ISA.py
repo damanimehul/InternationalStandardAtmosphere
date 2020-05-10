@@ -32,7 +32,7 @@ for element in lapserate:
            break
     t =element[0]  
 soundspeed=(1.4*R*t_0)**(.5)   
-print('Temperature is: '+ str(round(t_0,3))+' '+'Kelvin')
+print('Temperature : '+ str(round(t_0,3))+' '+'Kelvin')
 print('Pressure is:' +str(round(P_0,3))+' '+'Pascal')    
 print('Density is:'+ str(round(p_0,4))+' ' +'Kg/m**3')        
 print('Speed of sound is:'+str(round(soundspeed,3))+' '+'m/s') 
